@@ -1,0 +1,386 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1500px;
+    height: 750px;
+    /* border: 1px solid #000; */
+    margin: 100px auto;
+    position: relative;
+}
+.first{
+    width: 100%;
+    height: 20%;
+    background-color: #2eca7e;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.one{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.first h2{
+    text-transform: capitalize;
+    color: #fff;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.first .two{
+text-transform: capitalize;
+    color: #fff;
+    position: absolute;
+    left: 15%;
+    top: 45%;
+}
+.first .three{
+    position: absolute;
+    position: absolute;
+        left: 80%;
+        top: 20%;
+        color: #fff;
+        font-size: 20px;
+}
+.first .social{
+    width: 300px;
+        height: 40px;
+        /* border: 1px solid #000; */
+        position: absolute;
+        left: 75%;
+        top: 55%;
+        display: flex;
+        justify-content: space-between;
+}
+.first .social > i{
+    width: calc(94% / 5);
+    height: #fff;
+    font-size: 25px;
+}
+
+/*start of the second section*/
+.second{
+        width: 20%;
+        height: 75%;
+        position: absolute;
+        left: 0%;
+        top: 25%;
+        /* border: 1px solid #000; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+.second > div{
+width: 100%;
+height: 14%;
+    border-radius: 0 !important;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        -ms-border-radius: 0 !important;
+        -o-border-radius: 0 !important;
+        position: absolute;
+        left: 0;
+        /* border: 1px solid red; */
+}
+.second .one{
+        color: #2eca7e;
+        border-radius: 0px;
+        top: 7%;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+}
+
+.second .one div{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.second .one .fa-house{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.second .one div::after{
+        content: "";
+            width: 20px;
+            height: 3px;
+            background-color: #2eca7e;
+            position: absolute;
+            left: -130%;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+}
+.second .two {
+        top: 14%;
+}
+.second .two div{
+        position: absolute;
+            left: 20%;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            text-transform: capitalize;
+}
+.second .two .fa-address-book{
+    position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+}
+.second .three{
+top: 28%;
+}
+.second .three .fa-graduation-cap{
+        position: absolute;
+            left: 10%;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+}
+.second .three div{
+            position: absolute;
+                left: 20%;
+                top: 50%;
+                transform: translateY(-50%);
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                -o-transform: translateY(-50%);
+                text-transform: capitalize;
+}
+.second .four{
+    top: 42%;
+}
+.second .four .fa-gear{
+            position: absolute;
+            left: 10%;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+}
+.second .four div{
+            position: absolute;
+                left: 20%;
+                top: 50%;
+                transform: translateY(-50%);
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                -o-transform: translateY(-50%);
+                text-transform: capitalize;
+}
+.second .five {
+    top: 56%;
+}
+
+.second .five .fa-bag-shopping {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.second .five div {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    text-transform: capitalize;
+}
+.second .six {
+    top: 70%;
+}
+
+.second .six .fa-file {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.second .six div {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    text-transform: capitalize;
+}
+.second .seven {
+    top: 84%;
+}
+
+.second .seven .fa-envelope {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.second .seven div {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    text-transform: capitalize;
+}
+
+/*start og the third setion*/
+.third img{
+    width: 40%;
+        height: 70%;
+        position: absolute;
+        left: 17%;
+        top: 25%;
+        border-radius: 15px;
+}
+
+/*start of the fourth section*/
+.fourth{
+    width: 35%;
+        height: 70%;
+        /* border: 1px solid #2eca7e; */
+        position: absolute;
+        left: 65%;
+        top: 25%;
+        position: relative;
+}
+.fourth h3{
+    position: absolute;
+    left: 10%;
+    top: 0%;
+    text-transform: capitalize;
+}
+.fourth h3::after{
+content: "";
+    width: 130px;
+    height: 2px;
+    background-color: #2eca7e;
+    position: absolute;
+    left: 0;
+    top: 150%;
+}
+.fourth h3::before{
+content: "";
+    width: 60px;
+    height: 10px;
+    background-color: #2eca7e;
+    position: absolute;
+    left: 0%;
+    top: 130%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.fourth .one{
+    position: absolute;
+        left: 10%;
+        top: 24%;
+        width: 75%;
+    }
+.fourth .two{
+    position: absolute;
+    left: 10%;
+    top: 34%;
+}
+.bold{
+    font-weight: bold;
+}
+.fourth .three{
+    position: absolute;
+    left: 10%;
+    top: 44%;
+}
+.fourth .four{
+    position: absolute;
+    left: 10%;
+    top:54%;
+}
+.fourth .five{
+    position: absolute;
+    left: 10%;
+    top: 64%;
+}
+.fourth .six{
+width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2eca7e;
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    top: 75%;
+    border-radius: 10px;
+}
